@@ -17,7 +17,7 @@ jobs:
 
       - name: Write JSON file
         run: |
-          echo "{\"version\": \"$GITHUB_REF_NAME\"" > gh-target-version/latest.json
+          echo "{\"version\": \"$GITHUB_REF_NAME\"}" > gh-target-version/latest.json
 
       - name: Commit and push changes
         run: |
